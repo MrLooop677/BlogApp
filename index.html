@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog App</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Libs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="navbar shadow">
+      <div class="container">
+        <div
+          class="navbar__contents d-flex justify-content-between align-items-center"
+        >
+          <div class="navbar__right-content d-flex align-items-center">
+            <div class="logo">
+              <a href="./index.html"><img src="./assets/images/logo.png"/></a>
+            </div>
+            <div class="menu d-none d-lg-block">
+              <ul class="d-flex">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Our Products</a></li>
+                <li><a href="#">Resources</a>
+                  <i class="fa-solid fa-chevron-down dropdown-icon"></i>                </li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar__left-content d-none d-lg-block">
+            <button type="button" class="secondary-btn">Sign Up</button>
+            <button type="button" class="primary-btn">Log In</button>
+          </div>
+          <!-- Mobile Menu -->
+          <div class="navbar__menu-dropdown d-block d-lg-none">
+            <div class="navbar__menu-btn"><i class="fa-solid fa-bars"></i></div>
+            <ul class="dropdown-menu">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#">Our Products</a></li>
+              <li><a href="#">Resources</a>
+                <i class="fa-solid fa-chevron-down dropdown-icon"></i>                </li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Hero Section -->
+      <section class="hero">
+        <p>1% OF THE INDUSTRY</p>
+        <h1>
+          Hype got you here. <br />
+          Stay for the support.
+        </h1>
+      </section>
+      <!-- News Section -->
+      <section class="news">
+        <div class="container">
+          <div class="news-contents d-lg-flex d-block">
+            <div class="news-content__left">
+              <div class="news-content__item d-lg-block item-hero">
+                <div class="news-img">
+                  <img
+                    src="./assets/images/hero_section_1.png"
+                    alt="News Image"
+                  />
+                </div>
+                <div class="news-content-text">
+                  <h2 class="mt-20 mb-20">
+                    Reach your users with new tools. Reach your users with new tools. Reach your users with new tools.
+                  </h2>
+                  <p>
+                    Efficiently unleash cross-media information without cross-media value. Quickly maximize.Efficiently unleash cross-media information without cross-media value. Quickly maximize.Efficiently unleash cross-media.
+                  </p>
+                  <span class="d-block mt-20">25 Apr 2022 </span>
+                </div>
+              </div>
+            </div>
+            <div class="news-content__right">
+              <div class="news-content__item d-md-flex">
+                <div class="news-img ">
+                  <img
+                    src="./assets/images/hero_section_2.png"
+                    alt="News Image"
+                    class="w__hero__img"
+                  />
+                </div>
+                <div class="news-content-text">
+                  <h2>
+                    Reach your users with new tools
+                  </h2>
+                  <p>
+                    Efficiently unleash cross-media information without cross-media value. Quickly maximize.
+                  </p>
+                  <span class="d-block mt-20">25 Apr 2022 </span>
+
+                </div>
+              </div>
+              <div class="news-content__item d-md-flex">
+                <div class="news-img ">
+                  <img
+                    src="./assets/images/hero_section_3.png"
+                    alt="News Image"
+                    class="w__hero__img"
+                  />
+                </div>
+                <div class="news-content-text">
+                  <h2>
+                    Faster ways to reach your customer
+                  </h2>
+                  <p>
+                    Completely synergize resource taxing relationships via premier niche markets.
+                  </p>
+                  <span class="d-block mt-20">25 Apr 2022 Blog Theme</span>
+
+                </div>
+              </div>
+              <div class="news-content__item d-md-flex">
+                <div class="news-img ">
+                  <img
+                    src="./assets/images/hero_section_4.png"
+                    alt="News Image"
+                    class="w__hero__img"
+                  />
+                </div>
+                <div class="news-content-text">
+                  <h2>
+                    Revolutionizing the Design Industry
+                  </h2>
+                  <p>
+                    Efficiently unleash cross-media information without cross-media value. Quickly maximize.
+                  </p>
+                  <span class="d-block mt-20">25 Apr 2022 Blog Theme</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter Section -->
+      <section class="newsletter">
+        <div class="container">
+          <div
+            class="newsletter__contents d-block d-lg-flex justify-content-between"
+          >
+            <div class="newsletter__left">
+              <h2 class="mb-20">
+                Welcome to your new digital reality that will rock your world.
+              </h2>
+              <p class="line-height-24">
+                Let us help you take you from zero to serious business and
+                beyond. Our no-strings attached free trial lets you test our
+                product today.
+              </p>
+            </div>
+            <form class="newsletter__right" id="newsletterForm">
+              <input type="text"id="emailInput" placeholder="Enter your email address" />
+              
+
+              <button type="submit" class="primary-btn primary-btn--custom">
+                Submit
+              </button>
+              <p id="emailError" class="error"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Blog Section -->
+      <section class="blog">
+        <div class="container">
+          <h2 class="blog__header text-center">Latest Blog Posts</h2>
+          <div class="blog__contents d-md-flex d-block justify-content-between">
+            <div class="blog__item">
+              <div class="blog__image">
+                <img
+                  src="./assets/images/last_post_section_1.png"
+                  alt="Blog Image"
+                  onclick="showPopup(this, 'Organize your digital assets with a new methodology and there.')"
+
+                />
+              </div>
+              <div class="blog__text">
+                <span class="blog__date">April 10, 2021</span>
+                <h2>
+                  <a href="#" class="blog__title"
+                    >Organize your digital assets with a new methodology and there.</a
+                  >
+                </h2>
+                <a href="#" class="blog__read-more d-flex align-items-center"
+                  ><span>Read More </span><i class="fa fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="blog__image">
+                <img
+                  src="./assets/images/last_post_section_2.png"
+                  alt="Blog Image"
+                  onclick="showPopup(this, 'Organize your digital assets with a new methodology and there.')"
+
+                />
+              </div>
+              <div class="blog__text">
+                <span class="blog__date">April 10, 2021</span>
+                <h2>
+                  <a href="#" class="blog__title"
+                    >Organize your digital assets with a new methodology and there.</a
+                  >
+                </h2>
+                <a href="#" class="blog__read-more d-flex align-items-center"
+                  ><span>Read More </span><i class="fa fa-arrow-right" aria-hidden="true"></i
+                    ></a>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="blog__image">
+                <img
+                  src="./assets/images/last_post_section_3.png"
+                  alt="Blog Image"
+                  onclick="showPopup(this, 'Organize your digital assets with a new methodology and there.')"
+
+                />
+              </div>
+              <div class="blog__text">
+                <span class="blog__date">April 10, 2021</span>
+                <h2>
+                  <a href="#" class="blog__title"
+                    >Organize your digital assets with a new methodology and there.</a
+                  >
+                </h2>
+                <a href="#" class="blog__read-more d-flex align-items-center"
+                  ><span>Read More </span><i class="fa fa-arrow-right" aria-hidden="true"></i
+                    ></a>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="blog__image">
+                <img
+                  src="./assets/images/last_post_section_4.png"
+                  alt="Blog Image"
+                  onclick="showPopup(this, 'Organize your digital assets with a new methodology and there.')"
+
+                />
+              </div>
+              <div class="blog__text">
+                <span class="blog__date">April 10, 2021</span>
+                <h2>
+                  <a href="#" class="blog__title"
+                    >Organize your digital assets with a new methodology and there.</a
+                  >
+                </h2>
+                <a href="#" class="blog__read-more d-flex align-items-center"
+                  ><span>Read More </span><i class="fa fa-arrow-right" aria-hidden="true"></i
+                    ></a>
+             
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="blog__image">
+                <img
+                  src="./assets/images/last_post_section_5.png"
+                  alt="Blog Image"
+                  onclick="showPopup(this, 'Organize your digital assets with a new methodology and there.')"
+
+                />
+              </div>
+              <div class="blog__text">
+                <span class="blog__date">April 10, 2021</span>
+                <h2>
+                  <a href="#" class="blog__title"
+                    >Organize your digital assets with a new methodology and there.</a
+                  >
+                </h2>
+                <a href="#" class="blog__read-more d-flex align-items-center"
+                  ><span>Read More </span><i class="fa fa-arrow-right" aria-hidden="true"></i
+                    ></a>
+              </div>
+            </div>
+            <div class="blog__item">
+              <div class="blog__image">
+                <img
+                  src="./assets/images/last_post_section_6.png"
+                  alt="Blog Image"
+                  onclick="showPopup(this, 'Organize your digital assets with a new methodology and there.')"
+                />
+              </div>
+              <div class="blog__text">
+                <span class="blog__date">April 10, 2021</span>
+                <h2>
+                  <a href="#" class="blog__title"
+                    >Organize your digital assets with a new methodology and there.</a
+                  >
+                </h2>
+                <a href="#" class="blog__read-more d-flex align-items-center"
+                ><span>Read More </span><i class="fa fa-arrow-right" aria-hidden="true"></i
+                  ></a>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section -->
+      <section class="hero hero-bottom">
+        <p>1% OF THE INDUSTRY</p>
+        <h1>
+          Welcome to your new digital reality that<br/>
+          which will rock your world truly at all.
+        </h1>
+        <button type="button" class="secondary-btn">Sign Up</button>
+
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__contents d-flex justify-content-between">
+            <div class="footer__content one">
+              <div class="footer-logo">
+                <img src="./assets/images/footer_logo.png"/>
+              </div>
+              <p>
+                Generate outside the box thinking with
+the possibility to targtet the Iow.
+              </p>
+              <div class="newsletter__right footer-news d-flex">
+                <input type="text" placeholder="Enter your email address" />
+                <button type="submit" class="primary-btn primary-btn--custom">
+                  Submit
+                </button>
+              </div>
+            </div>
+        <div class="d-flex justify-content-between content-links">
+          <div class="footer__content two">
+            <h3>Why Choose Us?</h3>
+            <ul>
+              <li><a href="#">Scale</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Our Competition</a></li>
+              <li><a href="#">Channels</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Watch the Demo</a></li>
+            </ul>
+          </div>
+          <div class="footer__content three">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Media Kit</a></li>
+            </ul>
+          </div>
+          <div class="footer__content four">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">partners</a></li>
+            </ul>
+          </div>
+   
+        </div>
+      </div>
+      <div class="footer__line mt-20"></div>    
+
+      <p class="text-center mt-20 footer__coptright"> &copy; 2023 Lookscout. All Rights Reserved.</p>
+        </div>
+      </footer>
+      <!-- pop up -->
+      <div class="popup" id="popup">
+        <div class="popup-content">
+          <span class="close-popup" onclick="closePopup()">&times;</span>
+          <img id="popup-image" src="" alt="Popup Image">
+          <div id="popup-title" class="popup-title"></div>
+        </div>
+      </div>
+    </main>
+    <!-- Scripts -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

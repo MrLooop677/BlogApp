@@ -1,0 +1,137 @@
+.container {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+@media (max-width:600px) {
+  .footer__content{
+    width: 49%;
+  }
+
+    .footer__content.one {
+    width: 100%;
+  }
+    .footer__content.two {
+    width: 50%;
+  }
+  .footer__content.three {
+    width: 50%;
+  }
+  .footer__content.four {
+    width: 100%;
+  }
+}
+
+/* Small Screens */
+@media (min-width: 601px) {
+  .container {
+    min-width: 540px;
+  }
+  .d-sm-block {
+    display: block;
+  }
+  .d-sm-none {
+    display: none;
+  }
+  .d-sm-flex {
+    display: flex;
+  }
+  .newsletter__right{
+    margin-top: 25px;
+  }
+  .footer .content-links{
+    width: 100% !important;
+  }
+  .footer__content{
+    width: 49%;
+  }
+  .footer__content.one{
+    width: 100%;
+  }
+ 
+}
+
+/* Medium Screens */
+@media (min-width: 768px) {
+  .container {
+    min-width: 720px;
+  }
+  .content {
+    margin-left: 200px;
+  }
+  .d-md-block {
+    display: block;
+  }
+  .d-md-none {
+    display: none;
+  }
+  .d-md-flex {
+    display: flex;
+  }
+  .blog__item {
+    width: 46%;
+  }
+  .footer__content{
+    width: 33.3333%;
+  }
+  .footer__content.one {
+    width: 100%;
+  }
+  .footer__content.four {
+    margin-top: 0; 
+ }
+  .w__hero__img{
+    width: 188px;
+    height: 118px;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 992px) {
+  .container {
+    min-width: 960px;
+  }
+  .d-lg-block {
+    display: block;
+  }
+  .d-lg-none {
+    display: none;
+  }
+  .d-lg-flex {
+    display: flex;
+  }
+  .news-content__item:not(.news-content__item.item-hero) .news-img {
+    margin: 0px 15px 5px;
+  }
+  .news-content__item:not(.news-content__item:first-child) {
+    margin: 10px 0;
+  }
+  .news-content__left,
+  .news-content__right {
+    width: 50%;
+  }
+  .newsletter__left {
+    width: 50%;
+  }
+  .newsletter__right {
+    width: 30%;
+  }
+  .blog__item {
+    width: 30%;
+  }
+  .footer__content{
+    width: 24% !important;
+  }
+  .footer .content-links{
+    width: 65% !important;
+  }
+  footer .footer__content.one {
+    margin-bottom: 0;
+  }
+}
+
+/* Extra-Large Screens */
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1140px;
+  }
+}

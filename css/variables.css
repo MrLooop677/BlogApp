@@ -1,0 +1,38 @@
+/* Custom Classes */
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.line-height-24{
+  line-height:  24px;
+}
+.d-block {
+  display: block;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.d-none {
+  display: none;
+}
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.error{
+  color: red;
+}
+
